@@ -9,7 +9,7 @@ $(function()
           var total = (makeANumber(price) + makeANumber(shipping)).toFixed(2);
           //console.log(JSON.stringify({'message':'Sum up', total, price, shipping, mprice:makeANumber(price), mship:makeANumber(shipping)}, 0, 5))
           if(total>0){
-            details.find('.s-item__price, .lvprice').append('<div>(Total Cost: $'+number_format(total, 2)+')</div>');
+            details.find('.s-item__price, .lvprice').append('<div>(Total cost: $'+number_format(total, 2)+')</div>');
           }
         });
         }, 100);

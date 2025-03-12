@@ -1,5 +1,5 @@
 # ebayRealCost
-google chrome extension to show the total cost of a product in the listings (price + shipping).
+Google Chrome extension to show the total cost of a product in the listings (price + shipping).
 
 You can install it from here:
 
